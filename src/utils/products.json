@@ -1,0 +1,113 @@
+[
+	{
+	  "id": 1,
+	  "name": "Organic Apples",
+	  "category": "Grocery",
+	  "description": "Fresh and crisp organic apples, perfect for a healthy snack.",
+	  "price": 3.99,
+	  "oldPrice": 5.99,
+	  "image": "https://m.media-amazon.com/images/I/71RH999TUwL._SX679_.jpg",
+	  "color": "red",
+	  "rating": 3,
+	  "author": "admin"
+	},
+	{
+	  "id": 2,
+	  "name": "Men's Cotton T-Shirt",
+	  "category": "Fashion",
+	  "description": "Comfortable and stylish cotton t-shirt for everyday wear.",
+	  "price": 19.99,
+	  "oldPrice": 29.99,
+	  "image": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/18762622/2023/10/13/e67de1ce-cc38-449c-accf-fdc69186c8831697199664984ThesouledstoreBatmanTheBatSigilBlackOversizedT-Shirts5.jpg",
+	  "color": "blue",
+	  "rating": 4.5
+	},
+	{
+	  "id": 3,
+	  "name": "Wireless Bluetooth Earbuds",
+	  "category": "Electronics",
+	  "description": "Premium sound quality and long-lasting battery life for music lovers.",
+	  "price": 59.99,
+	  "oldPrice": 79.99,
+	  "image": "https://m.media-amazon.com/images/I/61XUdIeut0L.jpg",
+	  "color": "black",
+	  "rating": 4.8
+	},
+	{
+	  "id": 4,
+	  "name": "Kids' Educational Puzzle Set",
+	  "category": "Toys",
+	  "description": "Engaging and fun puzzle set to boost your child's creativity.",
+	  "price": 24.99,
+	  "oldPrice": 34.99,
+	  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUSwEe1r_X4_qm4AwZpe5jLZHy7f41g-cvnw&s",
+	  "color": "multicolor",
+	  "rating": 4.6
+	},
+	{
+	  "id": 5,
+	  "name": "Hydrating Face Cream",
+	  "category": "Beauty",
+	  "description": "Lightweight face cream for deep hydration and radiant skin.",
+	  "price": 14.99,
+	  "oldPrice": 19.99,
+	  "image": "https://apisap.fabindia.com/medias/8907833004699-1.jpg?context=bWFzdGVyfGltYWdlc3w4MjAwMnxpbWFnZS9qcGVnfGFEbGxMMmd6TVM4NU1qRXdNVE0wTlRrek5UWTJMemc1TURjNE16TXdNRFEyT1RsZk1TNXFjR2N8MWFhMDhlYzgyYWVkZjMwNjliOTdjYjdiYWZkYjU5YTM1MTYxZjA4Y2RlOTgwNDVhMWE1ZjJiOWMwNThkMTExZA",
+	  "color": "white",
+	  "rating": 4.4
+	},
+	{
+	  "id": 6,
+	  "name": "Whole Grain Bread",
+	  "category": "Grocery",
+	  "description": "Soft and fresh whole-grain bread for a nutritious breakfast.",
+	  "price": 2.99,
+	  "oldPrice": 4.99,
+	  "image": "https://www.eatthis.com/wp-content/uploads/sites/4/2023/12/best-whole-wheat-bread.jpg?quality=82&strip=all",
+	  "color": "brown",
+	  "rating": 4.5
+	},
+	{
+	  "id": 7,
+	  "name": "Women's Floral Dress",
+	  "category": "Fashion",
+	  "description": "Elegant floral dress perfect for casual outings or special occasions.",
+	  "price": 39.99,
+	  "oldPrice": 59.99,
+	  "image": "https://stylum.in/cdn/shop/files/DRSSOUL_1_78c07d2e-9b99-4203-8a73-6f223067778a.jpg?v=1690888220",
+	  "color": "pink",
+	  "rating": 4.6
+	},
+	{
+	  "id": 8,
+	  "name": "Smartphone with AMOLED Display",
+	  "category": "Electronics",
+	  "description": "Experience sharp visuals and fast performance with this latest smartphone.",
+	  "price": 299.99,
+	  "oldPrice": 399.99,
+	  "image": "https://www.vivoglobal.ph/wp-content/uploads/2022/07/vivo-smartphone-display-1024x1024.jpg",
+	  "color": "gray",
+	  "rating": 4.7
+	},
+	{
+	  "id": 9,
+	  "name": "Building Block Set",
+	  "category": "Toys",
+	  "description": "Creative building block set to inspire imaginative play in children.",
+	  "price": 34.99,
+	  "oldPrice": 49.99,
+	  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1v2r92GtmS4Q-hj8T6fse_CUsXWijswfTsQ&s",
+	  "color": "multicolor",
+	  "rating": 4.8
+	},
+	{
+	  "id": 10,
+	  "name": "Lipstick Set - Bold Shades",
+	  "category": "Beauty",
+	  "description": "Rich, bold lipstick shades for a striking look that lasts all day.",
+	  "price": 29.99,
+	  "oldPrice": 39.99,
+	  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsASeSGlNNZ2IpurMXN77h-Sol4fdjtzIQxg&s",
+	  "color": "red",
+	  "rating": 4.3
+	}
+  ]  
