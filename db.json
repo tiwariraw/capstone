@@ -1,0 +1,575 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Organic Apples",
+      "category": "Grocery",
+      "description": "Fresh and crisp organic apples, perfect for a healthy snack.",
+      "price": 3.99,
+      "oldPrice": 5.99,
+      "image": "https://m.media-amazon.com/images/I/71RH999TUwL._SX679_.jpg",
+      "color": "red",
+      "rating": 3,
+      "author": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Men's Cotton T-Shirt",
+      "category": "Fashion",
+      "description": "Comfortable and stylish cotton t-shirt for everyday wear.",
+      "price": 19.99,
+      "oldPrice": 29.99,
+      "image": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/18762622/2023/10/13/e67de1ce-cc38-449c-accf-fdc69186c8831697199664984ThesouledstoreBatmanTheBatSigilBlackOversizedT-Shirts5.jpg",
+      "color": "blue",
+      "rating": 4.5
+    },
+    {
+      "id": "3",
+      "name": "Wireless Bluetooth Earbuds",
+      "category": "Electronics",
+      "description": "Premium sound quality and long-lasting battery life for music lovers.",
+      "price": 59.99,
+      "oldPrice": 79.99,
+      "image": "https://m.media-amazon.com/images/I/61XUdIeut0L.jpg",
+      "color": "black",
+      "rating": 4.8
+    },
+    {
+      "id": "4",
+      "name": "Kids' Educational Puzzle Set",
+      "category": "Toys",
+      "description": "Engaging and fun puzzle set to boost your child's creativity.",
+      "price": 24.99,
+      "oldPrice": 34.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUSwEe1r_X4_qm4AwZpe5jLZHy7f41g-cvnw&s",
+      "color": "multicolor",
+      "rating": 4.6
+    },
+    {
+      "id": "5",
+      "name": "Hydrating Face Cream",
+      "category": "Beauty",
+      "description": "Lightweight face cream for deep hydration and radiant skin.",
+      "price": 14.99,
+      "oldPrice": 19.99,
+      "image": "https://apisap.fabindia.com/medias/8907833004699-1.jpg?context=bWFzdGVyfGltYWdlc3w4MjAwMnxpbWFnZS9qcGVnfGFEbGxMMmd6TVM4NU1qRXdNVE0wTlRrek5UWTJMemc1TURjNE16TXdNRFEyT1RsZk1TNXFjR2N8MWFhMDhlYzgyYWVkZjMwNjliOTdjYjdiYWZkYjU5YTM1MTYxZjA4Y2RlOTgwNDVhMWE1ZjJiOWMwNThkMTExZA",
+      "color": "white",
+      "rating": 4.4
+    },
+    {
+      "id": "6",
+      "name": "Whole Grain Bread",
+      "category": "Grocery",
+      "description": "Soft and fresh whole-grain bread for a nutritious breakfast.",
+      "price": 2.99,
+      "oldPrice": 4.99,
+      "image": "https://www.eatthis.com/wp-content/uploads/sites/4/2023/12/best-whole-wheat-bread.jpg?quality=82&strip=all",
+      "color": "brown",
+      "rating": 4.5
+    },
+    {
+      "id": "7",
+      "name": "Women's Floral Dress",
+      "category": "Fashion",
+      "description": "Elegant floral dress perfect for casual outings or special occasions.",
+      "price": 39.99,
+      "oldPrice": 59.99,
+      "image": "https://stylum.in/cdn/shop/files/DRSSOUL_1_78c07d2e-9b99-4203-8a73-6f223067778a.jpg?v=1690888220",
+      "color": "pink",
+      "rating": 4.6
+    },
+    {
+      "id": "8",
+      "name": "Smartphone with AMOLED Display",
+      "category": "Electronics",
+      "description": "Experience sharp visuals and fast performance with this latest smartphone.",
+      "price": 299.99,
+      "oldPrice": 399.99,
+      "image": "https://www.vivoglobal.ph/wp-content/uploads/2022/07/vivo-smartphone-display-1024x1024.jpg",
+      "color": "gray",
+      "rating": 4.7
+    },
+    {
+      "id": "9",
+      "name": "Building Block Set",
+      "category": "Toys",
+      "description": "Creative building block set to inspire imaginative play in children.",
+      "price": 34.99,
+      "oldPrice": 49.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1v2r92GtmS4Q-hj8T6fse_CUsXWijswfTsQ&s",
+      "color": "multicolor",
+      "rating": 4.8
+    },
+    {
+      "id": "10",
+      "name": "Lipstick Set - Bold Shades",
+      "category": "Beauty",
+      "description": "Rich, bold lipstick shades for a striking look that lasts all day.",
+      "price": 29.99,
+      "oldPrice": 39.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsASeSGlNNZ2IpurMXN77h-Sol4fdjtzIQxg&s",
+      "color": "red",
+      "rating": 4.3
+    },
+    {
+      "id": "11",
+      "name": "Noise-Cancelling Headphones",
+      "category": "Electronics",
+      "description": "High-quality noise-cancelling headphones for an immersive audio experience.",
+      "price": 89.99,
+      "oldPrice": 129.99,
+      "image": "https://www.jiomart.com/images/product/original/491570818/bose-nc700-blueooth-noice-cancelling-headphone-black-digital-o491570818-p590035034-1-202009260044.jpeg?im=Resize=(1000,1000)",
+      "color": "black",
+      "rating": 4.8
+    },
+    {
+      "id": "12",
+      "name": "Yoga Mat",
+      "category": "Fitness",
+      "description": "Durable and anti-slip yoga mat for a comfortable workout.",
+      "price": 19.99,
+      "oldPrice": 29.99,
+      "image": "https://spikefitness.in/cdn/shop/products/1-min_7.jpg?v=1647337376",
+      "color": "purple",
+      "rating": 4.7
+    },
+    {
+      "id": "13",
+      "name": "Gaming Laptop",
+      "category": "Electronics",
+      "description": "Powerful gaming laptop with high-performance GPU and processor.",
+      "price": 1099.99,
+      "oldPrice": 1299.99,
+      "image": "https://images-cdn.ubuy.co.in/633ac039315a5a5a6a2e052c-acer-nitro-5-gaming-laptop-9th-gen.jpg",
+      "color": "black",
+      "rating": 4.9
+    },
+    {
+      "id": "14",
+      "name": "Men's Running Shoes",
+      "category": "Fashion",
+      "description": "Lightweight running shoes for maximum comfort and performance.",
+      "price": 49.99,
+      "oldPrice": 69.99,
+      "image": "https://m.media-amazon.com/images/I/71D9ImsvEtL._AC_UX679_.jpg",
+      "color": "blue",
+      "rating": 4.5
+    },
+    {
+      "id": "15",
+      "name": "Coffee Maker",
+      "category": "Kitchen",
+      "description": "Brew fresh and delicious coffee at home with this easy-to-use coffee maker.",
+      "price": 39.99,
+      "oldPrice": 59.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXVJ296DFpR1nsIGGwaI_z5mq7Ms1_pDerEQ&s",
+      "color": "silver",
+      "rating": 4.6
+    },
+    {
+      "id": "16",
+      "name": "Luxury Handbag",
+      "category": "Fashion",
+      "description": "Elegant and stylish handbag to elevate your look.",
+      "price": 129.99,
+      "oldPrice": 179.99,
+      "image": "https://cdn.shopify.com/s/files/1/0579/8251/7295/files/GB_-_Galaxy_Bags_480x480.jpg?v=1715852566",
+      "color": "brown",
+      "rating": 4.8
+    },
+    {
+      "id": "17",
+      "name": "Action Figure Set",
+      "category": "Toys",
+      "description": "Exciting action figures for kids and collectors.",
+      "price": 49.99,
+      "oldPrice": 69.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRic-zALvf4xs9-ytyyhKD6-UghKX4YpXoPw&s",
+      "color": "multicolor",
+      "rating": 4.9
+    },
+    {
+      "id": "18",
+      "name": "Digital Alarm Clock",
+      "category": "Electronics",
+      "description": "Stylish alarm clock with multiple features and a sleek design.",
+      "price": 24.99,
+      "oldPrice": 34.99,
+      "image": "https://assets.nikshanonline.com/wp-content/uploads/2024/06/Alarm-Clock-Rechargable-Digital-Alarm-Clock-8.png",
+      "color": "black",
+      "rating": 4.4
+    },
+    {
+      "id": "19",
+      "name": "Women's Winter Coat",
+      "category": "Fashion",
+      "description": "Warm and cozy winter coat for ultimate comfort.",
+      "price": 89.99,
+      "oldPrice": 129.99,
+      "image": "https://chkokko.com/cdn/shop/products/1_cabcbf12-b1bf-4113-bf7f-19d6b91402c8.jpg?v=1694598527",
+      "color": "red",
+      "rating": 4.7
+    },
+    {
+      "id": "20",
+      "name": "Water Bottle",
+      "category": "Fitness",
+      "description": "Durable and leak-proof water bottle for everyday use.",
+      "price": 9.99,
+      "oldPrice": 14.99,
+      "image": "https://i.etsystatic.com/16291412/r/il/6a1ce9/3582734063/il_fullxfull.3582734063_eyq1.jpg",
+      "color": "blue",
+      "rating": 4.6
+    },
+    {
+      "id": "21",
+      "name": "Wireless Keyboard and Mouse Combo",
+      "category": "Electronics",
+      "description": "Compact and ergonomic wireless keyboard and mouse set for seamless typing and navigation.",
+      "price": 49.99,
+      "oldPrice": 69.99,
+      "image": "https://bearhugs.in/cdn/shop/files/whisperglide-pro-wireless-keyboard-and-mouse-combo-bear-hugs-1.webp?v=1731793588",
+      "color": "black",
+      "rating": 4.7
+    },
+    {
+      "id": "22",
+      "name": "Portable Camping Tent",
+      "category": "Outdoor",
+      "description": "Lightweight and easy-to-set-up camping tent for outdoor adventures.",
+      "price": 89.99,
+      "oldPrice": 129.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCH4SqMLNXEtadkGTdixuEOKLW1WaG5EzmLw&s",
+      "color": "green",
+      "rating": 4.8
+    },
+    {
+      "id": "23",
+      "name": "Men's Leather Wallet",
+      "category": "Accessories",
+      "description": "",
+      "price": 29.99,
+      "oldPrice": 39.99,
+      "image": "https://londonalley.in/cdn/shop/products/2.1.jpg?v=1670827794",
+      "color": "brown",
+      "rating": 4.5
+    },
+    {
+      "id": "24",
+      "name": "LED Desk Lamp",
+      "category": "Electronics",
+      "description": "Modern LED desk lamp with adjustable brightness and color temperature.",
+      "price": 34.99,
+      "oldPrice": 49.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn9rb1NRMo6XOh2gVOKrJw61FRreOVdB0f-A&s",
+      "color": "white",
+      "rating": 4.6
+    },
+    {
+      "id": "25",
+      "name": "Fitness Tracker Smartwatch",
+      "category": "Fitness",
+      "description": "Track your fitness goals and stay connected with this sleek smartwatch.",
+      "price": 59.99,
+      "oldPrice": 79.99,
+      "image": "https://cdn.mos.cms.futurecdn.net/Pk5ydxYo6ty2Q4SX9vznP6.jpg",
+      "color": "black",
+      "rating": 4.4
+    },
+    {
+      "id": "26",
+      "name": "Kids' Storybook Collection",
+      "category": "Books",
+      "description": "Beautifully illustrated storybook set to inspire a love of reading in kids.",
+      "price": 24.99,
+      "oldPrice": 34.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGdyEFHXivKi_0YN6j5AYlcsqJCJIVZJ2Qpw&s",
+      "color": "multicolor",
+      "rating": 4.7
+    },
+    {
+      "id": "27",
+      "name": "Premium Bed Sheet Set",
+      "category": "Home",
+      "description": "Soft and breathable bed sheet set for a luxurious sleeping experience.",
+      "price": 39.99,
+      "oldPrice": 59.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmbOsfZE1myXevN0v7c4VmYBhDkh4vNXPlgw&s",
+      "color": "white",
+      "rating": 4.5
+    },
+    {
+      "id": "28",
+      "name": "Non-Stick Cookware Set",
+      "category": "Kitchen",
+      "description": "Durable and easy-to-clean non-stick cookware set for all your cooking needs.",
+      "price": 79.99,
+      "oldPrice": 109.99,
+      "image": "https://images-cdn.ubuy.co.in/6688d647d6ed6473c34cf9a9-tramontina-primaware-18-pieces-non-stick.jpg",
+      "color": "gray",
+      "rating": 4.6
+    },
+    {
+      "id": "29",
+      "name": "Women's Fashion Sneakers",
+      "category": "Fashion",
+      "description": "Trendy and comfortable sneakers perfect for casual outings.",
+      "price": 49.99,
+      "oldPrice": 69.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJR_asRRHwkWUm_DTi2WISp2maQOVI6IKq1g&s",
+      "color": "white",
+      "rating": 4.5
+    },
+    {
+      "id": "30",
+      "name": "Electric Kettle",
+      "category": "Kitchen",
+      "description": "Quick and efficient electric kettle for boiling water in minutes.",
+      "price": 24.99,
+      "oldPrice": 34.99,
+      "image": "https://i0.wp.com/retailonline.in/wp-content/uploads/2023/01/1-1.jpg?fit=1500%2C1500&ssl=1",
+      "color": "silver",
+      "rating": 4.4
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "title": "Mastering the Art of Capsule Wardrobes",
+      "subtitle": "Timeless Elegance",
+      "date": "12th August 2022",
+      "imageUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": "2",
+      "title": "Unveiling the Hottest Beachwear Trends",
+      "subtitle": "Summer Breeze",
+      "date": "18th January 2023",
+      "imageUrl": "https://images.unsplash.com/photo-1700159017572-de76bb0c5719?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": "3",
+      "title": "Navigating the World of Women's Tailoring",
+      "subtitle": "Power Dressing",
+      "date": "5th January 2025",
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1682142715511-27bfbfdc044f?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": "4",
+      "title": "The World's Best Fashion Fair 2025",
+      "subtitle": "New York Times",
+      "date": "25th May 2025",
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1713720663924-4e3fe8f20f79?q=80&w=1948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+  ],
+  "users": [
+    {
+      "id": "f694",
+      "email": "sachin.giri@gmail.com",
+      "password": "$2a$10$zGWl05EBpWqvvvmH38A4FOW9cKtB0JiAOsZrvyWDAaEebWlyIzc7S",
+      "mobile": "9513457898",
+      "role": "user",
+      "orders": [],
+      "cart": []
+    },
+    {
+      "id": "8292",
+      "email": "ashishiit9@gmail.com",
+      "password": "$2a$10$ah0gdfdpXFTv2irTochT9.OUVJlGjCBp7RKN/D/CZWjwQci/RP92O",
+      "mobile": "9513669897",
+      "role": "user",
+      "orders": [
+        {
+          "orderId": "ah1k5ww9am",
+          "createdAt": "2024-12-11T08:49:13.703Z",
+          "status": "pending",
+          "products": [
+            {
+              "id": "1",
+              "name": "Organic Apples",
+              "category": "Grocery",
+              "description": "Fresh and crisp organic apples, perfect for a healthy snack.",
+              "price": 3.99,
+              "oldPrice": 5.99,
+              "image": "https://m.media-amazon.com/images/I/71RH999TUwL._SX679_.jpg",
+              "color": "red",
+              "rating": 3,
+              "author": "admin",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "orderId": "lp3k5gw9as",
+          "createdAt": "2024-11-11T09:59:13.703Z",
+          "status": "pending",
+          "products": [
+            {
+              "id": "3",
+              "name": "Wireless Bluetooth Earbuds",
+              "category": "Electronics",
+              "description": "Premium sound quality and long-lasting battery life for music lovers.",
+              "price": 59.99,
+              "oldPrice": 79.99,
+              "image": "https://m.media-amazon.com/images/I/61XUdIeut0L.jpg",
+              "color": "black",
+              "rating": 4.8,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "orderId": "ai4k5gw9ae",
+          "createdAt": "2024-10-07T03:27:13.703Z",
+          "status": "pending",
+          "products": [
+            {
+              "id": "2",
+              "name": "Men's Cotton T-Shirt",
+              "category": "Fashion",
+              "description": "Comfortable and stylish cotton t-shirt for everyday wear.",
+              "price": 19.99,
+              "oldPrice": 29.99,
+              "image": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/18762622/2023/10/13/e67de1ce-cc38-449c-accf-fdc69186c8831697199664984ThesouledstoreBatmanTheBatSigilBlackOversizedT-Shirts5.jpg",
+              "color": "blue",
+              "rating": 4.5,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "orderId": "rt2k8gw9mg",
+          "createdAt": "2024-09-06T11:27:13.703Z",
+          "status": "pending",
+          "products": [
+            {
+              "id": "14",
+              "name": "Men's Running Shoes",
+              "category": "Fashion",
+              "description": "Lightweight running shoes for maximum comfort and performance.",
+              "price": 49.99,
+              "oldPrice": 69.99,
+              "image": "https://m.media-amazon.com/images/I/71D9ImsvEtL._AC_UX679_.jpg",
+              "color": "blue",
+              "rating": 4.5,
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "orderId": "zd1k5fwpam",
+          "createdAt": "2024-12-12T07:59:13.703Z",
+          "status": "pending",
+          "products": [
+            {
+              "id": "16",
+              "name": "Luxury Handbag",
+              "category": "Fashion",
+              "description": "Elegant and stylish handbag to elevate your look.",
+              "price": 129.99,
+              "oldPrice": 179.99,
+              "image": "https://cdn.shopify.com/s/files/1/0579/8251/7295/files/GB_-_Galaxy_Bags_480x480.jpg?v=1715852566",
+              "color": "brown",
+              "rating": 4.8,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "orderId": "vnbuo8tsff",
+          "createdAt": "2024-12-12T08:21:28.229Z",
+          "status": "pending",
+          "products": [
+            {
+              "id": "6",
+              "name": "Whole Grain Bread",
+              "category": "Grocery",
+              "description": "Soft and fresh whole-grain bread for a nutritious breakfast.",
+              "price": 2.99,
+              "oldPrice": 4.99,
+              "image": "https://www.eatthis.com/wp-content/uploads/sites/4/2023/12/best-whole-wheat-bread.jpg?quality=82&strip=all",
+              "color": "brown",
+              "rating": 4.5,
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "cart": [],
+      "updatedUserDetails": {
+        "email": "ashishiit9@gmail.com",
+        "mobile": "9513669891"
+      }
+    },
+    {
+      "id": "7370",
+      "email": "admin@gmail.com",
+      "password": "$2a$10$U..nJ8uiIk7gh/rwgSF9cej7K1GgPMTRy0PHMTdskFeCfiPsw.t9K",
+      "mobile": "6364024363",
+      "role": "admin"
+    },
+    {
+      "id": "59f1",
+      "email": "soumya.joshi@gmail.com",
+      "password": "$2a$10$jpzqvwi9VpIs0xU4xMgk8.HyFsKOLYbbzYH/F0T6FK5PU2hlih5Ry",
+      "mobile": "6364024587",
+      "role": "user",
+      "orders": [],
+      "cart": []
+    },
+    {
+      "id": "6d73",
+      "email": "demouser@gmail.com",
+      "password": "$2a$10$xC.APWs0k3HmvZyQ1U9KP.12TChZsgXbn86haZxC07LOcz8nvRWIC",
+      "mobile": "9513668713",
+      "role": "user",
+      "orders": [
+        {
+          "orderId": "j1z9imswnhc",
+          "createdAt": "2024-12-12T09:47:05.165Z",
+          "status": "pending",
+          "products": [
+            {
+              "id": "2",
+              "name": "Men's Cotton T-Shirt",
+              "category": "Fashion",
+              "description": "Comfortable and stylish cotton t-shirt for everyday wear.",
+              "price": 19.99,
+              "oldPrice": 29.99,
+              "image": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/18762622/2023/10/13/e67de1ce-cc38-449c-accf-fdc69186c8831697199664984ThesouledstoreBatmanTheBatSigilBlackOversizedT-Shirts5.jpg",
+              "color": "blue",
+              "rating": 4.5,
+              "quantity": 1
+            },
+            {
+              "id": "1",
+              "name": "Organic Apples",
+              "category": "Grocery",
+              "description": "Fresh and crisp organic apples, perfect for a healthy snack.",
+              "price": 3.99,
+              "oldPrice": 5.99,
+              "image": "https://m.media-amazon.com/images/I/71RH999TUwL._SX679_.jpg",
+              "color": "red",
+              "rating": 3,
+              "author": "admin",
+              "quantity": 1
+            },
+            {
+              "id": "3",
+              "name": "Wireless Bluetooth Earbuds",
+              "category": "Electronics",
+              "description": "Premium sound quality and long-lasting battery life for music lovers.",
+              "price": 59.99,
+              "oldPrice": 79.99,
+              "image": "https://m.media-amazon.com/images/I/61XUdIeut0L.jpg",
+              "color": "black",
+              "rating": 4.8,
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "cart": []
+    }
+  ]
+}

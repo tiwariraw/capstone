@@ -1,11 +1,21 @@
 import { useEffect, useState } from "react";
-import products from "../utils/products.json";
+import { api } from "../services/api";
 import { ProductType } from "../utils/data";
 import Products from "./Products";
 
 const Search = () => {
   const [searchQuery, setSearchQuery] = useState("");
+  const [products, setProducts] = useState<ProductType[]>([]);
   const [filteredProducts, setFilteredProducts] = useState<ProductType[]>([]);
+
+  const getProducts = async () => {
+    const res = await api.getProducts();
+    setProducts(res);
+  };
+
+  useEffect(() => {
+    getProducts();
+  }, []);
 
   const handleSearch = () => {
     const query = searchQuery.toLowerCase();
@@ -21,7 +31,7 @@ const Search = () => {
 
   useEffect(() => {
     handleSearch();
-  }, [searchQuery]);
+  }, [searchQuery, products]);
 
   return (
     <>

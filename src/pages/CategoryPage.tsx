@@ -1,21 +1,31 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import products from "../utils/products.json";
+import { api } from "../services/api";
 import { ProductType } from "../utils/data";
 import Products from "./Products";
 
 const Categories = () => {
   const { categoryName } = useParams();
+  const [pdts, setPdts] = useState<ProductType[]>([]);
   const [filteredProducts, setFilteredProducts] = useState<ProductType[]>([]);
 
+  const getProducts = async () => {
+    const res = await api.getProducts();
+    setPdts(res);
+  };
+
   useEffect(() => {
-    const filtered = products.filter(
+    getProducts();
+  }, []);
+
+  useEffect(() => {
+    const filtered = pdts.filter(
       (product) =>
         product.category?.toLowerCase() === categoryName?.toLowerCase()
     );
     console.log(filtered);
     setFilteredProducts(filtered);
-  }, [categoryName]);
+  }, [categoryName, pdts]);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -31,7 +41,11 @@ const Categories = () => {
         </p>
       </section>
 
-      <Products products={filteredProducts} isCategoryPage={true} isSearchPage={false} />
+      <Products
+        products={filteredProducts}
+        isCategoryPage={true}
+        isSearchPage={false}
+      />
     </>
   );
 };

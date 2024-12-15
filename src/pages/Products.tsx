@@ -32,7 +32,7 @@ const Products: FC<ProductsProps> = ({
         }
       >
         {products?.slice(0, visibleProducts).map((product) => (
-          <ProductCard product={product} />
+          <ProductCard product={product} key={product.id} />
         ))}
       </div>
 

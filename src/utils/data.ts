@@ -10,7 +10,7 @@ export const filters = {
 };
 
 export type ProductType = {
-  id: number;
+  id: string;
   name: string;
   category: string;
   description: string;
@@ -20,6 +20,14 @@ export type ProductType = {
   color: string;
   rating: number;
   author?: string;
+};
+
+export type BlogType = {
+  id: string;
+  title: string;
+  subtitle: string;
+  date: string;
+  imageUrl: string;
 };
 
 export type PriceRangeType = {
@@ -33,3 +41,5 @@ export type FiltersType = {
   colors: string[];
   priceRanges: PriceRangeType[];
 };
+
+export const BASE_URL = "http://localhost:5000";

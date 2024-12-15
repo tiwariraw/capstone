@@ -14,6 +14,7 @@ export default {
       colors: {
         'primary': '#a78bfa',
         'primary-dark': "#4f46e5",
+        'primary-admin': "#008181",
         'primary-light': '#f4e5ec',
         'text-dark': '#0f172a',
         'text-light': '#64748b',

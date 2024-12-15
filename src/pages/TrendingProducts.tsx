@@ -1,7 +1,29 @@
-import products from "../utils/products.json";
+import { useEffect, useState } from "react";
+import { api } from "../services/api";
 import Products from "./Products";
+import { ProductType } from "../utils/data";
 
 const TrendingProducts = () => {
+  const [products, setProducts] = useState<ProductType[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
+  const [error, setError] = useState<string>("");
+
+  const fetchProducts = async () => {
+    try {
+      setLoading(true);
+      const response = await api.getProducts();
+      setProducts(response!);
+      setError("");
+    } catch {
+      setError("Failed to fetch products. Please try again later.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    fetchProducts();
+  }, []);
 
   return (
     <section className="section__container product__container">
@@ -12,7 +34,16 @@ const TrendingProducts = () => {
         comfort.
       </p>
 
-      <Products products={products} />
+      {loading && <p>Loading products...</p>}
+      {error && <p className="error-message">{error}</p>}
+
+      {!loading && !error && (
+        <Products
+          products={products}
+          isCategoryPage={false}
+          isSearchPage={false}
+        />
+      )}
     </section>
   );
 };

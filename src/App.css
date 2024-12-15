@@ -1,14 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
-  /* --primary-color: #ed3849; */
   --primary-color: #fff;
   --primary-color-light: #a78bfa;
   --primary-color-dark: #4f46e5;
   --text-dark: #fff;
-  /* --text-light: #64748b; */
   --text-light: #fff;
-  /* --extra-light: #f8fafc; */
   --white: #ffffff;
   --max-width-1400: 1400px;
   --max-width-1200: 1200px;

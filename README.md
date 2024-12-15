@@ -11,3 +11,7 @@
 # npm packages
 
 - https://remixicon.com/ (https://github.com/Remix-Design/RemixIcon)
+
+- for showing chart
+  - npm i chart.js
+  - npm i react-chartjs-2

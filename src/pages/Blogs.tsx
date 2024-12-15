@@ -1,6 +1,19 @@
-import blogs from "../utils/blogs.json";
+import { useEffect, useState } from "react";
+import { api } from "../services/api";
+import { BlogType } from "../utils/data";
 
 const Blogs = () => {
+  const [blogs, setBlogs] = useState<BlogType[]>();
+
+  const getBlogs = async () => {
+    const res = await api.getBlogs();
+    setBlogs(res);
+  };
+
+  useEffect(() => {
+    getBlogs();
+  }, []);
+
   return (
     <section className="section__container blog__container">
       <h2 className="blog__header">Latest from Blog</h2>
